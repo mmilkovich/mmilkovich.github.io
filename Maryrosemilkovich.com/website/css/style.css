@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans|Poppins|Roboto+Slab&display=swap');
+
+body {
+  background-color: #008fb3;
+  color: #f2f2f2;
+  font-family: "Open Sans", sans-serif;
+  margin: 50px;
+  width: 75%;
+
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: "Roboto Slab", sans-serif;
+  font-size: 50px;
+  font-weight: normal;
+
+}
+
+h3 {
+  font-size: 25px;
+  color: inherit;
+}
+
+a {
+  text-decoration: inherit;
+  border: inherit;
+  color:inherit;
+}
+
+.site-sections {
+  font-size: 25px;
+  color: inherit;
+  display: block;
+  text-align:center;
+  margin: 20px 350px;
+  padding: 50px;
+  border: solid;
+  background: #003d4d;
+  border-radius: 15px;
+}
+
+.site-sections:hover {
+  background-color: #47646b;
+}
+
+
+.text-link:hover {
+  background-color: #47646b;
+}
