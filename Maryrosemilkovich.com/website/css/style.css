@@ -4,9 +4,8 @@ body {
   background-color: #008fb3;
   color: #f2f2f2;
   font-family: "Open Sans", sans-serif;
-  margin: 50px;
-  width: 75%;
-
+  margin: 0px 0px ;
+  width: 100%;
 }
 
 h1 {
@@ -24,10 +23,26 @@ h3 {
   color: inherit;
 }
 
+footer {
+  padding:20px;
+  font-size: 14px;
+  text-align:center;
+  background-color: #003d4d;
+  margin-top:20px;
+}
+
 a {
   text-decoration: inherit;
   border: inherit;
   color:inherit;
+}
+
+a:hover {
+  background-color: #47646b;
+}
+
+ul {
+  margin: 10px;
 }
 
 .site-sections {
@@ -35,7 +50,7 @@ a {
   color: inherit;
   display: block;
   text-align:center;
-  margin: 20px 350px;
+  margin: 20px 200px;
   padding: 50px;
   border: solid;
   background: #003d4d;
@@ -46,7 +61,15 @@ a {
   background-color: #47646b;
 }
 
+.center {
+  width: 75%;
+  margin: 0 auto;
+}
 
-.text-link:hover {
-  background-color: #47646b;
+.homepage-image {
+  height:300px;
+}
+
+#back-home {
+  margin:0px 20px;
 }
